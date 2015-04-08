@@ -75,9 +75,45 @@ for($i=0;$i<=count($phone_numbers);$i++){
 
 
 function showOutput($output){
+	if(is_array($output)){
+
 	print_r($output);
+	}else{
+		echo $output;
+
+	}
 }
 
+
+function showSpecificOutput($output){
+	//int,string, array
+	if(is_array($output)){
+		print_r($output);
+	}elseif(is_string($output)){
+		echo "This is a string".$output;
+	}elseif(is_int($output)){
+		echo "This is an integer".$output;
+
+	}
+}
+
+function switchedOutput($output){
+	switch ($output) {
+
+		case is_array($output) :
+			print_r($output);
+			break;
+		case is_int($output):
+			echo $output;
+			break;
+		case is_string($output) :
+			echo $output
+			break;
+		default :
+			print_r($output);
+			break;
+	}
+}
 
 
 
