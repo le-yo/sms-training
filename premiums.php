@@ -36,3 +36,13 @@
  *
  */
 
+
+//assume a user will register by sending name#id#age   for example Leo Korir#3423423#25
+
+//read about explode in php
+//explode the message Leo Korir#34343#25
+
+//array of items 0 - name, 1 - id, 2 - age
+
+//createUser with the above details.
+

@@ -4,10 +4,12 @@ require_once('connect.php');
 //get users phone
 $phone = $_REQUEST['from'];
 
+createUser($phone);
 //get users message
 $message = $_REQUEST['message'];
+$result = checkForMessage($message,$phone);
 
-createUser($phone);
+saveMessage($message,$phone);
 
 //check if the users message is dog
 
@@ -33,6 +35,22 @@ function createUser($phone){
     $query = mysql_query("INSERT INTO users (phone) VALUES ('$phone')");
     }
     return $query;
+}
+
+function saveMessage($message,$phone){
+    $query = mysql_query("INSERT INTO messages (message,phone) VALUES ('$message','$phone')");
+    return $query;
+}
+
+function checkForMessage($message,$phone){
+    $query = mysql_query("SELECT * FROM messages WHERE phone='$phone' AND message='$message'");
+
+    if(mysql_num_rows($query)> 0){
+        return TRUE;
+    }else{
+        //create the user
+        return FAlSE;
+    }
 }
 
 

@@ -45,24 +45,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sms.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sms.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5514706" vertical-offset="225" max-vertical-offset="975">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1245">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
               <folding>
-                <marker date="1428596825000" expanded="true" signature="475:519" placeholder="SELECT phone..users..." />
-                <marker date="1428596825000" expanded="true" signature="641:684" placeholder="INSERT INTO ..." />
+                <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
+                <marker date="1428597225000" expanded="true" signature="715:758" placeholder="INSERT INTO ..." />
+                <marker date="1428597225000" expanded="true" signature="855:920" placeholder="INSERT INTO ..." />
+                <marker date="1428597225000" expanded="true" signature="1015:1081" placeholder="SELECT * FRO..messages..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="premiums.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="premiums.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/premiums.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.5" vertical-offset="222" max-vertical-offset="660">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7794118" vertical-offset="312" max-vertical-offset="810">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -86,8 +88,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/smssync.php" />
         <option value="$PROJECT_DIR$/connect.php" />
-        <option value="$PROJECT_DIR$/premiums.php" />
         <option value="$PROJECT_DIR$/sms.php" />
+        <option value="$PROJECT_DIR$/premiums.php" />
       </list>
     </option>
   </component>
@@ -260,8 +262,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1428596825000" expanded="true" signature="475:519" placeholder="SELECT phone..users..." />
-            <marker date="1428596825000" expanded="true" signature="641:684" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
+            <marker date="1428597225000" expanded="true" signature="715:758" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="855:920" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="1015:1081" placeholder="SELECT * FRO..messages..." />
           </folding>
         </state>
       </provider>
@@ -287,8 +291,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1428596825000" expanded="true" signature="475:519" placeholder="SELECT phone..users..." />
-            <marker date="1428596825000" expanded="true" signature="641:684" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
+            <marker date="1428597225000" expanded="true" signature="715:758" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="855:920" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="1015:1081" placeholder="SELECT * FRO..messages..." />
           </folding>
         </state>
       </provider>
@@ -317,22 +323,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/premiums.php">
+    <entry file="file://$PROJECT_DIR$/sms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.5" vertical-offset="222" max-vertical-offset="660">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
+            <marker date="1428597225000" expanded="true" signature="715:758" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="855:920" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="1015:1081" placeholder="SELECT * FRO..messages..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sms.php">
+    <entry file="file://$PROJECT_DIR$/premiums.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5514706" vertical-offset="225" max-vertical-offset="975">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <marker date="1428596825000" expanded="true" signature="475:519" placeholder="SELECT phone..users..." />
-            <marker date="1428596825000" expanded="true" signature="641:684" placeholder="INSERT INTO ..." />
-          </folding>
+        <state vertical-scroll-proportion="0.7794118" vertical-offset="312" max-vertical-offset="810">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
