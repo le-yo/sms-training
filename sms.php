@@ -1,11 +1,13 @@
 <?php
-
+require_once('connect.php');
 //Dog
 //get users phone
 $phone = $_REQUEST['from'];
 
 //get users message
 $message = $_REQUEST['message'];
+
+createUser($phone);
 
 //check if the users message is dog
 
@@ -21,6 +23,17 @@ sendOutput($reply,$phone);
 exit;
 
 
+function createUser($phone){
+    //check if the phone number exists
+    $query = mysql_query("SELECT phone FROM users WHERE phone='$phone'");
+    if(mysql_num_rows($query)> 0){
+        //do nothing
+    }else{
+       //create the user
+    $query = mysql_query("INSERT INTO users (phone) VALUES ('$phone')");
+    }
+    return $query;
+}
 
 
 
