@@ -23,6 +23,32 @@ $message = $_REQUEST['message'];
         default:
             if(strpos($message, "#")){
                 $reply = registerUser($phone,$message);
+            }elseif($phone=='MPESA') {
+                //payments
+                $MPESA_Message = $message;
+                //$MPESA_Message = "You have received Ksh4,500 fromPerson x 25471234567on 16/3/15 at 8:23 AMNew M-PESA balance is Ksh";
+                $exploded = explode('Ksh',$MPESA_Message);
+                $amount_array = explode(" ",$exploded[1]);
+                $amount = $amount_array[0];
+                //lets get the sender
+                $exploded = explode("254",$MPESA_Message);
+                $sender_array = explode('on',$exploded[1]);
+                $sender = $sender_array[0];
+
+                //check the amount if it is sufficient
+                if($amount>10){
+                    //update transaction table
+                    //update insurance status to 1;
+                    $qu = mysql_query("UPDATE insurance SET status= 1 WHERE phone=$sender");
+                    $reply = "Payment of Ksh ".$amount. " received. Your insurance is now active";
+                    sendOutput($reply,$sender);
+                    exit;
+                }else{
+                    $reply = "Insufficient amount of money sent";
+                }
+
+
+
             }else{
             $reply = "We did not understand your message.";
             }
