@@ -28,8 +28,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5833335" vertical-offset="1597" max-vertical-offset="2355">
-              <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+            <state vertical-scroll-proportion="-2.8333333" vertical-offset="1417" max-vertical-offset="2355">
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="115" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="smssync.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smssync.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="375">
               <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding />
             </state>
@@ -48,7 +48,7 @@
       <file leaf-file-name="sms.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.75" vertical-offset="837" max-vertical-offset="1245">
+            <state vertical-scroll-proportion="-25.625" vertical-offset="240" max-vertical-offset="1245">
               <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
               <folding>
                 <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
@@ -63,12 +63,15 @@
       <file leaf-file-name="premiums.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/premiums.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5882353" vertical-offset="0" max-vertical-offset="1560">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.22058824" vertical-offset="480" max-vertical-offset="2370">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <marker date="1428683251000" expanded="true" signature="1680:1724" placeholder="SELECT phone..users..." />
-                <marker date="1428683251000" expanded="true" signature="1852:1907" placeholder="INSERT INTO ..." />
-                <marker date="1428683251000" expanded="true" signature="1852:1946" placeholder="INSERT INTO ..." />
+                <marker date="1428684858000" expanded="true" signature="1740:1789" placeholder="SELECT statu..insurance..." />
+                <marker date="1428684858000" expanded="true" signature="2454:2498" placeholder="SELECT phone..users..." />
+                <marker date="1428684858000" expanded="true" signature="2650:2705" placeholder="INSERT INTO ..." />
+                <marker date="1428684858000" expanded="true" signature="2650:2744" placeholder="INSERT INTO ..." />
+                <marker date="1428684858000" expanded="true" signature="3113:3161" placeholder="SELECT phone..insurance..." />
+                <marker date="1428684858000" expanded="true" signature="3299:3357" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -268,9 +271,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1428683251000" expanded="true" signature="1680:1724" placeholder="SELECT phone..users..." />
-            <marker date="1428683251000" expanded="true" signature="1852:1907" placeholder="INSERT INTO ..." />
-            <marker date="1428683251000" expanded="true" signature="1852:1946" placeholder="INSERT INTO ..." />
+            <marker date="1428684858000" expanded="true" signature="1740:1789" placeholder="SELECT statu..insurance..." />
+            <marker date="1428684858000" expanded="true" signature="2454:2498" placeholder="SELECT phone..users..." />
+            <marker date="1428684858000" expanded="true" signature="2650:2705" placeholder="INSERT INTO ..." />
+            <marker date="1428684858000" expanded="true" signature="2650:2744" placeholder="INSERT INTO ..." />
+            <marker date="1428684858000" expanded="true" signature="3113:3161" placeholder="SELECT phone..insurance..." />
+            <marker date="1428684858000" expanded="true" signature="3299:3357" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -341,25 +347,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5833335" vertical-offset="1597" max-vertical-offset="2355">
-          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smssync.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.22058824" vertical-offset="0" max-vertical-offset="408">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.75" vertical-offset="837" max-vertical-offset="1245">
+        <state vertical-scroll-proportion="-25.625" vertical-offset="240" max-vertical-offset="1245">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
           <folding>
             <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
@@ -370,22 +368,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect.php">
+    <entry file="file://$PROJECT_DIR$/smssync.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22058824" vertical-offset="0" max-vertical-offset="408">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="21" />
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="375">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8333333" vertical-offset="1417" max-vertical-offset="2355">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="115" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/premiums.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5882353" vertical-offset="0" max-vertical-offset="1560">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.22058824" vertical-offset="480" max-vertical-offset="2370">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <marker date="1428683251000" expanded="true" signature="1680:1724" placeholder="SELECT phone..users..." />
-            <marker date="1428683251000" expanded="true" signature="1852:1907" placeholder="INSERT INTO ..." />
-            <marker date="1428683251000" expanded="true" signature="1852:1946" placeholder="INSERT INTO ..." />
+            <marker date="1428684858000" expanded="true" signature="1740:1789" placeholder="SELECT statu..insurance..." />
+            <marker date="1428684858000" expanded="true" signature="2454:2498" placeholder="SELECT phone..users..." />
+            <marker date="1428684858000" expanded="true" signature="2650:2705" placeholder="INSERT INTO ..." />
+            <marker date="1428684858000" expanded="true" signature="2650:2744" placeholder="INSERT INTO ..." />
+            <marker date="1428684858000" expanded="true" signature="3113:3161" placeholder="SELECT phone..insurance..." />
+            <marker date="1428684858000" expanded="true" signature="3299:3357" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

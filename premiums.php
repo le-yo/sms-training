@@ -11,13 +11,28 @@ include('connect.php');
 $phone = $_REQUEST['from'];
 $message = $_REQUEST['message'];
 
-$result = registerUser($phone,$message);
 
-if($result){
-    $reply = "You are registered successfully. Please send 100 bob to activate your insurance";
-    sendOutput($reply,$phone);
-    exit;
-}
+//switch
+
+    switch (trim(strtolower($message))) {
+
+        case "status" :
+            $reply = checkInsuranceStatus($phone);
+            //checking insurance status
+            break;
+        default:
+            if(strpos($message, "#")){
+                $reply = registerUser($phone,$message);
+            }else{
+            $reply = "We did not understand your message.";
+            }
+            break;
+
+    }
+
+sendOutput($reply,$phone);
+
+
 
 //2. insured person should query on the status of the insurance. Send STATUS you
 //insurance is active or the next x days.
@@ -58,7 +73,26 @@ if($result){
 
 //createUser with the above details.
 
+function checkInsuranceStatus($phone){
 
+
+    $query = mysql_query("SELECT status FROM insurance WHERE phone='$phone'");
+    if(mysql_num_rows($query)> 0){
+        //check insurance status
+        $row = mysql_fetch_array($query);
+
+        $status = $row['status'];
+        if($status == 1){
+            return "Your insurance is active";
+        }else{
+            return "Your insurance is not active";
+        }
+    }else{
+        //create the user insurance
+       return "You are not registered. Please register first in order to check status";
+    }
+
+}
 function registerUser($phone,$message)
 {
     $exploded = explode("#", $message);
@@ -66,15 +100,35 @@ function registerUser($phone,$message)
     $national_id = $exploded[1];
     $age = $exploded[2];
 
-//    print_r($_REQUEST);
-//    exit;
     //check if the user exists
     $query = mysql_query("SELECT phone FROM users WHERE phone='$phone'");
     if(mysql_num_rows($query)> 0){
-        return FALSE;
+        return "You are already registered";
     }else{
         //create the user
-        $query = mysql_query("INSERT INTO users (phone,name,age,national_id) VALUES ('$phone','$name','$age','$national_id')");
+        $result = mysql_query("INSERT INTO users (phone,name,age,national_id) VALUES ('$phone','$name','$age','$national_id')");
+
+        if($result){
+            createUserInsurance($phone,$message);
+            $reply = "You are registered successfully. Please send 100 bob to activate your insurance";
+            return $reply;
+        }
+       // return $query;
+    }
+
+
+}
+
+function createUserInsurance($phone,$message)
+{
+
+    //check if the user insurance exists
+    $query = mysql_query("SELECT phone FROM insurance WHERE phone='$phone'");
+    if(mysql_num_rows($query)> 0){
+        return FALSE;
+    }else{
+        //create the user insurance
+        $query = mysql_query("INSERT INTO insurance (phone,status) VALUES ('$phone','0')");
         return $query;
     }
 
