@@ -1,15 +1,18 @@
 <?php
 include('connect.php');
 //kagai's story:
-
+//sendSMS('test','');
+//exit;
 //The normal sales cycle of insurance.
 
 //Agent approaches you with a product and gives you details
 
 // 1. User register by SMS (Name, age, Id). Confirmation message is here
 
-$phone = $_REQUEST['from'];
-$message = $_REQUEST['message'];
+$phone = '';
+$message = '';
+
+getInput();
 
 
 //switch
@@ -55,9 +58,11 @@ $message = $_REQUEST['message'];
             break;
 
     }
+//africastalking api
+//sendSMS($reply,$phone);
 
-sendSMS($reply,$phone);
-//sendOutput($reply,$phone);
+//smssync api
+sendOutput($reply,$phone);
 
 
 
@@ -99,6 +104,12 @@ sendSMS($reply,$phone);
 //array of items 0 - name, 1 - id, 2 - age
 
 //createUser with the above details.
+
+function getInput(){
+    $phone = $_REQUEST['from'];
+    $message = $_REQUEST['message'];
+
+}
 
 function checkInsuranceStatus($phone){
 
@@ -188,8 +199,8 @@ function sendSMS($msg,$recipient){
 
 // Specify the numbers that you want to send to in a comma-separated list
 // Please ensure you include the country code (+254 for Kenya in this case)
-    //$recipients = "+254718931397";
-    $recipients = $recipient;
+    $recipients = "+254718931397";
+    //$recipients = $recipient;
 // And of course we want our recipients to know what we really do
     //$message    = "I'm a lumberjack and its ok, I sleep all night and I work all day";
     $message = $msg;
@@ -200,7 +211,7 @@ function sendSMS($msg,$recipient){
     try
     {
         // Thats it, hit send and we'll take care of the rest.
-        $results = $gateway->sendMessage($recipients, $message);
+        $results = $gateway->sendMessage($recipients, $message,$from);
         foreach($results as $result) {
             // Note that only the Status "Success" means the message was sent
             echo " Number: " .$result->number;
