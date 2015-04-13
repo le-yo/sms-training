@@ -1,8 +1,7 @@
 <?php
 include('connect.php');
 //kagai's story:
-sendSMS();
-exit;
+
 //The normal sales cycle of insurance.
 
 //Agent approaches you with a product and gives you details
@@ -57,7 +56,8 @@ $message = $_REQUEST['message'];
 
     }
 
-sendOutput($reply,$phone);
+sendSMS($reply,$phone);
+//sendOutput($reply,$phone);
 
 
 
@@ -179,18 +179,20 @@ function sendOutput($msg,$number){
     exit;
 }
 
-function sendSMS(){
+function sendSMS($msg,$recipient){
 
     require_once('AfricasTalkingGateway.php');
 // Specify your login credentials
-    $username   = "username";
-    $apikey     = "password";
+    $username   = "";
+    $apikey     = "";
 
 // Specify the numbers that you want to send to in a comma-separated list
 // Please ensure you include the country code (+254 for Kenya in this case)
-    $recipients = "+254718931397";
+    //$recipients = "+254718931397";
+    $recipients = $recipient;
 // And of course we want our recipients to know what we really do
-    $message    = "I'm a lumberjack and its ok, I sleep all night and I work all day";
+    //$message    = "I'm a lumberjack and its ok, I sleep all night and I work all day";
+    $message = $msg;
 // Create a new instance of our awesome gateway class
     $gateway    = new AfricasTalkingGateway($username, $apikey);
 // Any gateway errors will be captured by our custom Exception class below,
