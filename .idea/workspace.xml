@@ -28,7 +28,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8333333" vertical-offset="1417" max-vertical-offset="2355">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1417" max-vertical-offset="2355">
               <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="115" selection-end-column="1" />
               <folding />
             </state>
@@ -38,7 +38,7 @@
       <file leaf-file-name="smssync.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smssync.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="375">
+            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
               <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding />
             </state>
@@ -48,7 +48,7 @@
       <file leaf-file-name="sms.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.625" vertical-offset="240" max-vertical-offset="1245">
+            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1245">
               <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
               <folding>
                 <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
@@ -63,16 +63,16 @@
       <file leaf-file-name="premiums.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/premiums.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6617647" vertical-offset="375" max-vertical-offset="2760">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.5084746" vertical-offset="2595" max-vertical-offset="3525">
+              <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
               <folding>
-                <marker date="1428686554000" expanded="true" signature="1419:1462" placeholder="UPDATE insur..." />
-                <marker date="1428686554000" expanded="true" signature="2911:2960" placeholder="SELECT statu..insurance..." />
-                <marker date="1428686554000" expanded="true" signature="3625:3669" placeholder="SELECT phone..users..." />
-                <marker date="1428686554000" expanded="true" signature="3821:3876" placeholder="INSERT INTO ..." />
-                <marker date="1428686554000" expanded="true" signature="3821:3915" placeholder="INSERT INTO ..." />
-                <marker date="1428686554000" expanded="true" signature="4284:4332" placeholder="SELECT phone..insurance..." />
-                <marker date="1428686554000" expanded="true" signature="4470:4528" placeholder="INSERT INTO ..." />
+                <marker date="1428943404000" expanded="true" signature="1435:1478" placeholder="UPDATE insur..." />
+                <marker date="1428943404000" expanded="true" signature="2927:2976" placeholder="SELECT statu..insurance..." />
+                <marker date="1428943404000" expanded="true" signature="3641:3685" placeholder="SELECT phone..users..." />
+                <marker date="1428943404000" expanded="true" signature="3837:3892" placeholder="INSERT INTO ..." />
+                <marker date="1428943404000" expanded="true" signature="3837:3931" placeholder="INSERT INTO ..." />
+                <marker date="1428943404000" expanded="true" signature="4300:4348" placeholder="SELECT phone..insurance..." />
+                <marker date="1428943404000" expanded="true" signature="4486:4544" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -96,9 +96,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="800" />
-    <option name="height" value="529" />
+    <option name="y" value="22" />
+    <option name="width" value="707" />
+    <option name="height" value="534" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -123,7 +123,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,12 +143,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ussd-election-transmission" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -166,15 +171,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -193,7 +198,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="800" height="529" extended-state="0" />
+    <frame x="0" y="22" width="707" height="534" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -202,7 +207,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.00625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21640736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -240,6 +245,51 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1417" max-vertical-offset="2355">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="115" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smssync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1245">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
+            <marker date="1428597225000" expanded="true" signature="715:758" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="855:920" placeholder="INSERT INTO ..." />
+            <marker date="1428597225000" expanded="true" signature="1015:1081" placeholder="SELECT * FRO..messages..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/premiums.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2760">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428943404000" expanded="true" signature="1435:1478" placeholder="UPDATE insur..." />
+            <marker date="1428943404000" expanded="true" signature="2927:2976" placeholder="SELECT statu..insurance..." />
+            <marker date="1428943404000" expanded="true" signature="3641:3685" placeholder="SELECT phone..users..." />
+            <marker date="1428943404000" expanded="true" signature="3837:3892" placeholder="INSERT INTO ..." />
+            <marker date="1428943404000" expanded="true" signature="3837:3931" placeholder="INSERT INTO ..." />
+            <marker date="1428943404000" expanded="true" signature="4300:4348" placeholder="SELECT phone..insurance..." />
+            <marker date="1428943404000" expanded="true" signature="4486:4544" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1597" max-vertical-offset="2355">
           <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
           <folding />
@@ -272,13 +322,13 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1428686554000" expanded="true" signature="1419:1462" placeholder="UPDATE insur..." />
-            <marker date="1428686554000" expanded="true" signature="2911:2960" placeholder="SELECT statu..insurance..." />
-            <marker date="1428686554000" expanded="true" signature="3625:3669" placeholder="SELECT phone..users..." />
-            <marker date="1428686554000" expanded="true" signature="3821:3876" placeholder="INSERT INTO ..." />
-            <marker date="1428686554000" expanded="true" signature="3821:3915" placeholder="INSERT INTO ..." />
-            <marker date="1428686554000" expanded="true" signature="4284:4332" placeholder="SELECT phone..insurance..." />
-            <marker date="1428686554000" expanded="true" signature="4470:4528" placeholder="INSERT INTO ..." />
+            <marker date="1428943404000" expanded="true" signature="1435:1478" placeholder="UPDATE insur..." />
+            <marker date="1428943404000" expanded="true" signature="2927:2976" placeholder="SELECT statu..insurance..." />
+            <marker date="1428943404000" expanded="true" signature="3641:3685" placeholder="SELECT phone..users..." />
+            <marker date="1428943404000" expanded="true" signature="3837:3892" placeholder="INSERT INTO ..." />
+            <marker date="1428943404000" expanded="true" signature="3837:3931" placeholder="INSERT INTO ..." />
+            <marker date="1428943404000" expanded="true" signature="4300:4348" placeholder="SELECT phone..insurance..." />
+            <marker date="1428943404000" expanded="true" signature="4486:4544" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -359,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.625" vertical-offset="240" max-vertical-offset="1245">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1245">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
           <folding>
             <marker date="1428597225000" expanded="true" signature="549:593" placeholder="SELECT phone..users..." />
@@ -372,7 +422,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smssync.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="375">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
           <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
@@ -380,7 +430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8333333" vertical-offset="1417" max-vertical-offset="2355">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1417" max-vertical-offset="2355">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="115" selection-end-column="1" />
           <folding />
         </state>
@@ -388,16 +438,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/premiums.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6617647" vertical-offset="375" max-vertical-offset="2760">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.5084746" vertical-offset="2595" max-vertical-offset="3525">
+          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
           <folding>
-            <marker date="1428686554000" expanded="true" signature="1419:1462" placeholder="UPDATE insur..." />
-            <marker date="1428686554000" expanded="true" signature="2911:2960" placeholder="SELECT statu..insurance..." />
-            <marker date="1428686554000" expanded="true" signature="3625:3669" placeholder="SELECT phone..users..." />
-            <marker date="1428686554000" expanded="true" signature="3821:3876" placeholder="INSERT INTO ..." />
-            <marker date="1428686554000" expanded="true" signature="3821:3915" placeholder="INSERT INTO ..." />
-            <marker date="1428686554000" expanded="true" signature="4284:4332" placeholder="SELECT phone..insurance..." />
-            <marker date="1428686554000" expanded="true" signature="4470:4528" placeholder="INSERT INTO ..." />
+            <marker date="1428943404000" expanded="true" signature="1435:1478" placeholder="UPDATE insur..." />
+            <marker date="1428943404000" expanded="true" signature="2927:2976" placeholder="SELECT statu..insurance..." />
+            <marker date="1428943404000" expanded="true" signature="3641:3685" placeholder="SELECT phone..users..." />
+            <marker date="1428943404000" expanded="true" signature="3837:3892" placeholder="INSERT INTO ..." />
+            <marker date="1428943404000" expanded="true" signature="3837:3931" placeholder="INSERT INTO ..." />
+            <marker date="1428943404000" expanded="true" signature="4300:4348" placeholder="SELECT phone..insurance..." />
+            <marker date="1428943404000" expanded="true" signature="4486:4544" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
