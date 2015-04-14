@@ -1,9 +1,23 @@
 <?php
+include('connect.php');
 
 $sessionId   = $_REQUEST["sessionId"];
 $serviceCode = $_REQUEST["serviceCode"];
 $phoneNumber = $_REQUEST["phoneNumber"];
 $text        = $_REQUEST["text"];
+
+
+$session = registerUser($phoneNumber,$sessionId);
+
+if($session == $sessionId){
+    echo "Continuing user";
+    //continuing user
+}else{
+    updateUserSession($phoneNumber,$sessionId);
+   echo "Welcome back";
+}
+exit;
+//implement revisit mode;
 
 //$response = "This is a test";
 
@@ -39,11 +53,6 @@ switch (trim(strtolower($level))) {
         break;
 
 }
-
-
-
-
-
 
 header('Content-type: text/plain');
 echo "CON ".$response;
@@ -102,4 +111,39 @@ function secondMenuSwitch($exploded_text){
 
     }
     return $response;
+}
+
+function registerUser($phone,$sessionID)
+{
+
+    //check if the user exists
+    $query = mysql_query("SELECT phone,session_id FROM users WHERE phone='$phone'");
+    if(mysql_num_rows($query)> 0){
+        $row = mysql_fetch_array($query);
+        $session = $row['session_id'];
+        return $session;
+        //updateUserSession($phone,$sessionID);
+        //return "You are already registered";
+    }else{
+        //create the user
+        $result = mysql_query("INSERT INTO users (phone,session_id) VALUES ('$phone','$sessionID')");
+
+        if($result){
+           // createUserInsurance($phone,$);
+            //$reply = "You are registered successfully. Please send 100 bob to activate your insurance";
+            //return $reply;
+        }
+        // return $query;
+    }
+    $query = mysql_query("SELECT phone FROM users WHERE phone='$phone'");
+    $row = mysql_fetch_array($query);
+
+    $session = $row['session_id'];
+    return $session;
+
+
+}
+function updateUserSession($phone,$sessionid){
+    $qu = mysql_query("UPDATE users SET session_id=$sessionid WHERE phone=$phone");
+
 }
